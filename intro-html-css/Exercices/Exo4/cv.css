@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*css pour le liseret*/
+
+.monlis {
+    height: 700px;
+}
+
+#liseret {
+    flex: 1;
+}
+
+
+/*css pour ma tof*/
+
+.matof {
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+}
+
+
+/*css pour ma section principale*/
+
+section {
+    flex: 3;
+}
+
+article {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.entete {
+    text-align: center;
+}
+
+.colonne h1 {
+    color: blue;
+    font-size: 3em;
+}
+
+.colonne h3 {
+    color: gray;
+    font-size: 1em;
+}
+
+.colonne li {
+    font-size: 0.8em;
+}
+
+
+/*partie sur les mediaqueries*/
+
+@media all and (max-width: 800px) {
+    #liseret {
+        display: none;
+    }
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+    .colonne h3, p, li {
+        font-size: 0.8em;
+    }
+    .colonne h1 {
+        font-size: 1em;
+    }
+    .colonne h3, ul {
+        margin-top: -10px;
+    }
+}

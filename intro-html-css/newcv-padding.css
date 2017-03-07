@@ -1,0 +1,47 @@
+
+body
+{
+font-family: "Montserrat", cursive;
+}
+.monimage
+{
+  width: 130px;
+  height: 150;
+}
+.xp2
+{border: 8px green dotted;
+background-color: red;
+width: 20%;
+min-width: 200px;
+}
+h1
+{
+  border: 2px gray solid;
+  width: 30%;
+  min-width: 250px;
+  padding: 20px 20px 50px 10px;
+  margin: auto;
+  text-align: center;
+
+  height:10%;
+}
+.testoverflow
+{
+  border: 3px black solid;
+  width: 100px;
+  height: 200px;
+  overflow: auto;
+}
+h1:hover
+{
+background-color: blue;
+border-radius: 30px;
+}
+.titreformation1
+{
+border: 4px black solid;
+  width: 20%;
+  margin: auto;
+  margin-top: 40px;
+  overflow: auto;
+}

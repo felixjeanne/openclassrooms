@@ -1,0 +1,70 @@
+
+body
+{
+  font-family: "Montserrat", sans-serif;
+}
+
+.bcgrnd
+{
+  opacity: 0.5;
+}
+
+h1
+{
+  color: grey;
+  text-align: center;
+  border: 8px #587de4 solid;
+  border-radius: 20px;
+  box-shadow: 4px 3px 4px blue;
+}
+
+p
+{
+font-size: 1,1em;
+font-family: "Montserrat", sans-serif;
+text-align: justify;
+}
+.Werom
+{
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: line-through;
+  color: #F8616D;
+  background-color: #F12460;
+
+}
+.tofhome
+{
+  width: 300px;
+  height: 160px;
+}
+.flottant
+{
+  float: left;
+}
+.stopfloat
+{
+  clear: both;
+}
+h1:hover
+{
+  background-color: blue;
+}
+a:visited
+{: purple;
+
+}
+a:hover
+{
+  font-weight: bold;
+}
+.imgcenter
+{
+  display: block;
+  margin: 0 auto;
+}
+.test1
+{
+border: 4px green solid;
+border-radius: 5px;
+}

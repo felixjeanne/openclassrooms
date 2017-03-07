@@ -1,0 +1,21 @@
+td, th {
+    border: 1px black solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+p {
+    color: blue;
+}
+
+@media screen and (max-width: 824px) {
+    p {
+        color: red;
+    }
+}

@@ -1,0 +1,24 @@
+h1
+{
+color: gray;
+text-shadow: 2px 5px #547894;
+}
+.monimage
+{
+  width: 100px;
+  height: 80px;
+  border: 8px blue groove;
+}
+.titreformation
+{
+font-weight: bold;
+}
+.intro
+{
+  text-align: center;
+}
+body
+{
+font-family: "Montserrat", cursive;
+  background-image: url(backgroundcv.jpg);
+}

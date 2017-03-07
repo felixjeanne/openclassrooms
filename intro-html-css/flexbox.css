@@ -1,0 +1,31 @@
+#conteneur
+{
+  border: 3px black solid;
+  display: flex;
+  height: 300px;
+}
+
+.element
+{
+  width: 150px;
+  height: 100px;
+}
+
+.element:nth-child(1)
+{
+  background-color: orange;
+  margin: auto;
+}
+
+.element:nth-child(2)
+{
+  background-color: blue;
+  margin: auto;
+
+}
+
+.element:nth-child(3)
+{
+  background-color: green;
+  margin: auto;
+}
